@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+    <link rel="stylesheet" href="stylesheet2.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delphi Tech Corp Front-End Development Team Coding Test</title>
+    <script src="script2.js" defer></script>
+  </head>
+  <body>
+    <h1>TASK 2 Dashboard</h1>
+    <div id="main">
+      <div id = "dateTime"></div>
+      <div id = "dashboard">
+        <div id="group1" class = "groups">
+          <h2 id="group1h2">Group 1 - Alan Zheng's Companys + Products</h2> 
+          <ul>
+            <li class="clickToShow" title = "vrCityInfo">VR City</li>
+            <li class="clickToShow"  title = "delphiInfo">Delphi Tech Corp</li>
+            <li class="clickToShow"  title = "auroraInfo">Aurora Aerial</li>
+          </ul>
+          <div id="vrCityInfo" class="clickToShowBlock link"> 
+            VR City is a virtual aviation training company. Our virtual community provides people with the learning tools to learn how to fly. 
+            <br>
+             https://vrcity.ca/
+          </div>
+          <div id="delphiInfo" class="clickToShowBlock link"> 
+            Delphi Technology Corp is integrating new technologies such as augmented reality and virtuality into the aerospace and aviation industries!
+            <br>
+            https://delphitechcorp.com/
+          </div>  
+          <div id="auroraInfo" class="clickToShowBlock link">
+            Aurora Aerial offers custom drone manufacturing. We develop both drone hardware and software.
+            <br>
+            https://auroraaerial.aero
+          </div>
+          
+        </div>
+        <div id="group2" class = "groups">
+          <h2 id="group2h2">Group 2 - Technology products used at Delphi</h2>
+          <ul>
+            <li class="hoverToShow link" title= "virbela" id= "virbelaURL">Virbela</li>
+            <li class="hoverToShow link" title= "amazon" id= "amazonURL">Amazon</li>
+            <li class="hoverToShow link" title= "moodle" id= "moodleURL">Moodle</li>
+            <li class="hoverToShow link" title= "xPlane" id= "xPlaneURL">X-Plane</li>
+            <li class="hoverToShow link" title= "wordpress" id= "wordpressURL">Wordpress</li>
+          </ul>
+          
+          <div id="virbela" class="hoverToShowBlock">
+            <img alt="Virbela" src="Logos/5fab9393da4ffe1e20d14cc6_virbela-logo-black-website.png"> 
+          </div>
+          <div id="amazon" class="hoverToShowBlock">
+            <img alt="Amazon" src="Logos/NicePng_amazon-png_197561.png">  
+          </div>  
+          <div id="moodle" class="hoverToShowBlock">
+            <img alt="Moodle" src="Logos/moodle_logo_small.svg">  
+          </div>
+          <div id="xPlane" class="hoverToShowBlock"> 
+            <img alt="X-Plane" src="Logos/x-plane-logo.svg"> 
+          </div>  
+          <div id="wordpress" class="hoverToShowBlock"> 
+            <img alt="Virbela" src="Logos/NicePng_wordpress-logo-png_395752.png"> 
+          </div>
+
+        </div>
+        <div id="group3" class = "groups">
+          <h2 id="group3h2" >Group 3 - Websites used at Delphi</h2>
+          <ul>
+            <dt>GitHub</dt>
+              <dd class="showLinks link" id="gitHub">https://github.com</dd>  
+            <dt>Google Meet</dt>
+              <dd class="showLinks link" id="googleMeet">https://meet.google.com</dd>
+            <dt>Slack</dt>
+              <dd class="showLinks link" id="slack">https://slack.com</dd>
+            <dt>Wrike</dt>
+              <dd class="showLinks link" id="wrike">https://wrike.com</dd>    
+          </ul>
+          <button id="showLinksButton">Show Links</button>
+        </div>
+        <div id="group4" class = "groups">
+          <h2 id="group4h2">Group 4 - Aerospace Companies</h2>
+
+          <ul id="aviationLinks">
+            <li class = "cycle link" id="airbus">airbus.com</li> 
+            <li class = "cycle link" id="boeing">boeing.com</li>
+            <li class = "cycle link" id="lockheedMartin">lockheedmartin.com</li>
+            <li class = "cycle link" id="rtx">rtx.com</li>
+            <li class = "cycle link" id="geAviation">geaviation.com</li>
+            <li class = "cycle link" id="safran">safran-group.com</li>
+            <li class = "cycle link" id="leonardo">leonardocompany.com</li>
+            <li class = "cycle link" id="baseSystems">baesystems.com</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>    
+    <link rel="stylesheet" href="stylesheet1.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delphi Tech Corp Front-End Development Team Coding Test</title>
+    <script src="script1.js" defer></script>
+  </head>
+  <body>
+    <div id = "calcDiv">
+
+      <div id="calcDivHeader">
+        <h1>A Simple Calculator</h1>
+      </div>
+
+      <div id="display">
+        <h2 id="result"></h2>          
+      </div>
+
+      <label for="firstNumber" id="firstNumLabel">First Number:</label><br>
+        <input id = "firstNumber" type = "text" placeholder="Type first number">
+
+        <br> <br>
+        <label for="operandChoice">What operation do you want? <br>(+,-,*,/,%, &#62;, &#60;, &#8730;, x<sup>y</sup>)</label><br>
+        <select name = "operand" id = "operandChoice">
+          <option value = "+">+</option>
+          <option value = "-">-</option>
+          <option value = "*">*</option>
+          <option value = "/">/</option>
+          <option value = "%">%</option>
+          <option value = "sqrt">&#8730;</option>
+          <option value = "power">x^y</option>
+          <option value = ">"> &#62; , &#60; or =</option>
+        </select>
+        <br> <br>
+        <div id="secondNumDiv">
+          <label for="secondNumber" id="secondNumLabel">Second Number:</label>
+          <br>
+          <input id = "secondNumber" type = "text" placeholder="Type second number">
+      </div>
+        <br><br>
+       
+        <button id="submit">Calculate Result</button>
+    </div>
+  </body>
+</html>

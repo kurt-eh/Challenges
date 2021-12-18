@@ -1,0 +1,30 @@
+
+#calcDiv{
+    position:absolute;
+    border:black solid 2pt;
+    width: 20em;
+    height: fit-content;
+    background-color:lightgrey;
+    padding: 6em 1em 1em 1em;
+    text-align: center;
+}
+#display{
+    border: black solid 1px;
+    background-color: black;
+    color: white;
+    height: 4em;
+    margin-bottom: 1em;
+    text-align:center;
+}
+input{
+    width:80%;
+    text-align: center;
+}
+#calcDivHeader{
+    position:absolute;
+    cursor:move;
+    top:0px;
+    left:0px;
+    width:22em;
+    background-color: slategray;    
+}
